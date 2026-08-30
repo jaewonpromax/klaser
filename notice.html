@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>공지사항 | KLASER</title>
+<meta name="description" content="KLASER의 공지사항, 학술 자료, 행사 소식을 확인하세요." />
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">K</span>
+      <span class="brand-text"><strong>KLASER</strong><small>전국한의과대학 레이저·미용의학회</small></span>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">HOME</a>
+      <a href="about.html">학회소개</a>
+      <a href="notice.html">공지사항</a>
+      <a href="gallery.html">활동앨범</a>
+      <a href="contact.html">오시는 길</a>
+    </nav>
+    <a href="contact.html#join" class="btn btn-primary btn-sm nav-cta">가입신청</a>
+    <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">HOME <span>/</span> 공지사항</div>
+      <h1>공지사항</h1>
+      <p>KLASER의 공지, 학술 자료, 행사 소식을 가장 빠르게 전달합니다.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="subnav" id="noticeSubnav">
+        <button class="is-active" data-filter="all">전체</button>
+        <button data-filter="notice">공지</button>
+        <button data-filter="academic">학술</button>
+        <button data-filter="event">행사</button>
+      </div>
+
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr><th class="col-num">번호</th><th>구분</th><th>제목</th><th class="col-date">등록일</th></tr>
+          </thead>
+          <tbody>
+            <tr data-category="event"><td class="col-num">12</td><td><span class="tag tag--event">행사</span></td><td class="col-title">2026 KLASER 추계 학술대회 참가 신청 안내</td><td class="col-date">2026.08.20</td></tr>
+            <tr data-category="academic"><td class="col-num">11</td><td><span class="tag tag--academic">학술</span></td><td class="col-title">보톡스·필러 임상 세미나 자료집 배포</td><td class="col-date">2026.07.28</td></tr>
+            <tr data-category="notice"><td class="col-num">10</td><td><span class="tag tag--notice">공지</span></td><td class="col-title">2026년 하반기 정기총회 개최 안내</td><td class="col-date">2026.07.15</td></tr>
+            <tr data-category="notice"><td class="col-num">9</td><td><span class="tag tag--notice">공지</span></td><td class="col-title">신입 회원 모집 및 오리엔테이션 안내</td><td class="col-date">2026.06.30</td></tr>
+            <tr data-category="academic"><td class="col-num">8</td><td><span class="tag tag--academic">학술</span></td><td class="col-title">레이저 토닝 실습 워크숍 후기 및 자료 공유</td><td class="col-date">2026.06.11</td></tr>
+            <tr data-category="event"><td class="col-num">7</td><td><span class="tag tag--event">행사</span></td><td class="col-title">2026 KLASER 춘계 학술세미나 현장 스케치</td><td class="col-date">2026.05.02</td></tr>
+            <tr data-category="notice"><td class="col-num">6</td><td><span class="tag tag--notice">공지</span></td><td class="col-title">회칙 개정 및 임원 선출 결과 공지</td><td class="col-date">2026.04.18</td></tr>
+            <tr data-category="academic"><td class="col-num">5</td><td><span class="tag tag--academic">학술</span></td><td class="col-title">한의학적 변증 기반 미용 시술 사례 연구 발표</td><td class="col-date">2026.03.27</td></tr>
+            <tr data-category="notice"><td class="col-num">4</td><td><span class="tag tag--notice">공지</span></td><td class="col-title">2026년 상반기 정기총회 결과 안내</td><td class="col-date">2026.03.05</td></tr>
+            <tr data-category="event"><td class="col-num">3</td><td><span class="tag tag--event">행사</span></td><td class="col-title">전국 회장단 워크숍 개최 결과 보고</td><td class="col-date">2026.02.14</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="pagination">
+        <button class="is-active">1</button>
+        <button>2</button>
+        <button>3</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark">K</span>
+      <div><strong>KLASER</strong><p>전국한의과대학 레이저·미용의학회</p></div>
+    </div>
+    <div class="footer-info">
+      <p>회장 이OO · 사무국 klaser.official@gmail.com</p>
+      <p>본 사이트는 학회 소개를 위한 공식 홈페이지입니다.</p>
+    </div>
+    <div class="footer-sns">
+      <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+      <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.5 7.5s-.2-1.6-.9-2.3c-.8-.9-1.8-.9-2.2-1C16.4 4 12 4 12 4s-4.4 0-7.4.2c-.4 0-1.4.1-2.2 1-.7.7-.9 2.3-.9 2.3S1.3 9.4 1.3 11.3v1.5c0 1.9.2 3.7.2 3.7s.2 1.6.9 2.3c.8.9 2 .9 2.4 1 1.8.2 7.2.2 7.2.2s4.4 0 7.4-.2c.4-.1 1.4-.1 2.2-1 .7-.7.9-2.3.9-2.3s.2-1.9.2-3.7v-1.5c0-1.9-.2-3.8-.2-3.8z"/><path d="M9.8 15.3V8.7l6 3.3z"/></svg></a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 KLASER (전국한의과대학 레이저·미용의학회). All rights reserved.</span>
+    <span>Design inspired for academic archive homepage.</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
